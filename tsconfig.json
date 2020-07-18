@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["esnext", "es7", "webworker", "es5", "es6", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*"],
+      "@adornis/*": ["imports/git_modules/*"]
+    },
+    "strict": true
+  },
+  "compileOnSave": true
+}
